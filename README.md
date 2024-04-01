@@ -1,0 +1,1 @@
+# IntelliTrade---AI-driven-Stock-Prediction-Model
