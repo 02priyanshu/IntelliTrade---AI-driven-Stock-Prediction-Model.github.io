@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.navbar {
+  width: 250px;
+  background: linear-gradient(to bottom right, #111, #222);
+  padding: 20px;
+  color: white;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-item {
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nav-item:hover {
+  background-color: #333;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.search-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  height: 3em;
+  margin-right: 10px;
+  width: 90%;
+  background-color: #222;
+  color: white;
+}
+
+.search-button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  height: 3em;
+  width: 7em;
+  border: 1px solid wheat;
+  box-shadow: 0 0 5px white;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.main-content {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.image-container {
+  flex: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  margin-bottom: 4em;
+  max-width: 80%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.stock-name {
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+img#tesla {
+  width: 2em;
+  height: auto;
+}
+
+#tesla-span {
+  font-size: 2em;
+  margin-left: 0.5em;
+}
+
+.statistics {
+  width: 250px;
+  background: linear-gradient(to bottom right, #111, #222);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  color: white;
+  margin-left: 20px;
+}
+
+.stat-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.stat-label {
+  font-weight: bold;
+}
+
+.stat-value {
+  font-style: italic;
+}
+
+span {
+  color: white;
+}
