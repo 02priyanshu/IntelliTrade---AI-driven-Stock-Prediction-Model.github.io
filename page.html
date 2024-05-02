@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trading Bot Dashboard</title>
+    <link rel="stylesheet" href="page.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <span class="navbar-brand">Trading Bot</span>
+        <ul class="navbar-nav">
+          <li class="nav-item">Dashboard</li>
+          <li class="nav-item">Settings</li>
+          <li class="nav-item">Support</li>
+        </ul>
+      </nav>
+      <div class="content">
+        <div class="search-bar">
+          <input type="text" placeholder="Search..." class="search-input" />
+          <button type="button" class="search-button">Search</button>
+        </div>
+        <div class="main-content">
+          <div class="image-container">
+            <div class="stock-name">
+              <img id="tesla" src="public\tesla.png" alt="Tesla" /><span id="tesla-span"
+                >Tesla</span
+              >
+            </div>
+            <img src="public\graph.png" alt="Graph" />
+          </div>
+          <div class="statistics">
+            <h2>Statistics</h2>
+            <div class="stat-item">
+              <span class="stat-label">Bot Status:</span>
+              <span class="stat-value">On</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Profits Generated:</span>
+              <span class="stat-value">$100,000</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Trades Executed:</span>
+              <span class="stat-value">500</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Success Rate:</span>
+              <span class="stat-value">80%</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Average Profit:</span>
+              <span class="stat-value">$200</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Maximum Drawdown:</span>
+              <span class="stat-value">$500</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
